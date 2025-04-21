@@ -1,0 +1,48 @@
+Business Problem
+IBM'S biggest challenge among the telecom companies is customer churn, where customers leave due to price, quality of service or competetive offers. High churn leads to loss of revenue, increased customer acquisition cost, and decreased profitability.
+This problem is important
+•	Reducing churn increases the longterm value of each customer.
+•	Retaining existing customers is significantly cheaper that acquiring new ones.
+•	IBM should improve service personalization.
+Solving this problem benefits IBM
+•	Stronger AI driven offerings come if we improves churn prediction models for IBM's enterprise clients. -Enhancing customer loyalty for telecom companies strengthens IBM'S business relationships. -IBM can leverage its AI solutions to generate insights that telecom providers can use to create new revenue streams.
+Data collection strategy
+To build an effective churn prediction model the data sources are necessary like Historical customer data, Usage patterns, Customer support interactions and Churn labels
+•	For this project, the Telco customer churn dataset serves as a foundation for training and validating machine learning models.
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn/data
+Formulating the problem as a Machine Learning Task
+This is a Supervised classification problem where the goal is to predict whether a customer will churn based on historical data. The machine learning pipeline includes:
+•	Data preprocessing
+•	Exploratory Data Analysis
+•	Feature Engineering
+•	Model selection & Training
+•	Model Evaluation
+•	Interpretability & Business Recommendations
+Conclusion
+•	By training and testing the DecisionTreeClassifier, SVM, RandomForestClassifier, Found that the RandomForestClassifier model is performing better.
+•	Using the RandomForestClassifier, that has built, the telecom churn predictions can be done with accuracy of 80 percent. Based on the predictions, telecom service can reach the customers who are about to churn and provide the good services and solutions for the customer problems.
+Stengths
+•	The machine learning model provides actionable insights by identifying key drivers of customer churn.
+•	Advanced algorithms such as Random Forest can detect complex patterns in customer behavior
+•	The solution can be expanded to handle larger datasets and deployed in real time customer retention systems.
+Limitations
+•	If historical data contains biases the model may make unfair predictions.
+•	The model does not account for external factors like competitors promotions or macroeconomics changes.
+•	The model may struggle with the new customers who lack historical data.
+•	Deploying a real time churn prediction system may require additional infrastructure and integration efforts.
+Implications of the Results for the Business Problem
+•	Telecom providers can target at risk customers with personalised offers before they leave.
+•	Predicting churn allows for efficient allocation of retention budgets.
+•	Insights from the model help identify common pain points leading to churn.
+Data-Driven Recommendations for Solving the Busi
+•	Provide discounts, loyalty rewards or personalized plans to customers predicted to churn.
+•	Identify customers with frequent complaints and proactively address their issues.
+•	Detect patterns in churn related to billing and adjust pricing models accordingly.
+•	Use targeted communication such as emails, calls to engage customers showing signs of potential churn.
+•	Regularly retrain the model to adapt to evolving customer behavior and market trends.
+Most informative Features of the model
+•	Month-to-month customers are more likely to churn than those with longer-term contracts.
+•	Customers with shorter tenures have a higher churn probability.
+•	Higher monthly bills may contribute to churn, especially for price-sensitive customers.
+•	Electronic check payments might be linked to higher churn compared to credit card or bank transfer.
+•	Frequent interactions with support may indicate dissatisfaction and predict churn.
